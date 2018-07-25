@@ -1,15 +1,26 @@
 
 def create_olympics_hash
-  # Implement this method so that it returns a hash with the data provided on README.md
+  summer_olympics ={
+    :Sydney => 2000.to_s,
+    :Athens => 2004.to_s,
+    :Beijing => 2008.to_s,
+    :London => 2012.to_s
+  }
 end
 
-def add_a_key_value_pair
-  # Implement this method so that it adds a key value pair to the hash created in create_olympics_hash
+def add_a_key_value_pair()
+  summer_olympics ={
+    :Atlanta => 1996.to_s,
+    :Sydney => 2000.to_s,
+    :Athens => 2004.to_s,
+    :Beijing => 2008.to_s,
+    :London => 2012.to_s
+  }
+  
 end
 
 def iterate_through_hash
-  # Implement this method so that it iterates over the hash created in add_a_key_value_pair
-  # and puts each key value pair within the phrase "The _____ summer olympics took place in _____."
+  puts "The #{key} summer olympics took place in #{value}."
 end
 
 def iterate_through_keys
